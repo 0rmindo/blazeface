@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Distanciamento Social</title>
+
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/face-detector.css">
+</head>
+
+<body>
+  <header>
+		<h1>Distanciamento Social</h1>
+		<p>BlazeFace - Tensorflow</p>
+	</header>
+
+	<main>
+		<section class="detection">
+			<div class="image">
+				<img src="../images/friends.jpg">
+				<canvas></canvas>
+			</div>
+			
+			<p class="status">Carregando...</p>
+		</section>
+	</main>
+
+	<footer>
+		<p>Criado por Filipe Alves & Pedro Carlos</p>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/blazeface"></script>
+
+	<script src="../js/face-detector.js"></script>
+	<script src="../js/social-distancing.js"></script>
+</body>
+
+</html>

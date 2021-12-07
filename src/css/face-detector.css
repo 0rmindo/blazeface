@@ -1,0 +1,28 @@
+.detection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.image {
+  position: relative;
+  width: 90%;
+  max-width: 450px;
+}
+
+.image canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.image img {
+  width: 100%;
+}
+
+.status {
+  margin-top: 10px;
+}
