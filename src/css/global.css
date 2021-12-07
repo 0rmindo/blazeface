@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  margin: 30px auto 50px;
+  text-align: center;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 30px;
+  background-color: #FFFFFF;
+  box-shadow: 0 -1px 7px 1px #0001;
+  text-align: center;
+}
